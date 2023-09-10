@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="appsettings.json.development" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json.development" />
+  </ItemGroup>
+
 </Project>

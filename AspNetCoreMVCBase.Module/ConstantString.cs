@@ -1,7 +1,14 @@
-﻿namespace AspNetCoreMVCBase
+﻿namespace AspNetCoreMVCBase.Module
 {
     public class ConstantString
     {
+        public static class SystemMessage
+        {
+            public const string ProcessSuccessfully = "Process Successfully";
+            public const string DataNotFound = "Data Not Found";
+            public const string DataNotFoundWithParam = "Data {0} Not Found";
+            public const string DeleteSuccessfully = "Delete Successfully";
+        }
         public static class Status
         {
             public const int Open = 2;
